@@ -1,0 +1,108 @@
+.fixed-bottom-right {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.card {
+  position: fixed;
+  right: 40px;
+  bottom: 80px;
+  width: 280px;
+}
+
+.card-header {
+  background-color: #3586dd;
+}
+
+.btn-full-width {
+  width: 230px;
+  margin: 0.3rem 0;
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.queryText {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.form-group label .required {
+  color: red;
+}
+
+.form-control {
+  background-color: #f1f3f6;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.circle-button {
+  position: fixed;
+  bottom: 10px;
+  /* Adjust to place it lower */
+  right: 20px;
+  /* Same right position as the containers */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: background-color 0.3s ease;
+  z-index: 500;
+}
+
+.circle-button:hover {
+  background-color: #0056b3;
+  /* Darker color on hover */
+}
+
+.chat-container {
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  width: 380px;
+  max-width: 100%;
+  border-radius: 12px;
+  z-index: 1000;
+}
+
+.chat-message {
+
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.chat-message img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.roundedCircle {
+  width: 40px;
+  height: 40px;
+  background-color: skyblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+  margin-right: 10px;
+}
